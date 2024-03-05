@@ -52,7 +52,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN                          PA8   // Enable BLTOUCH
+//#define SERVO0_PIN                          PA8   // Enable BLTOUCH
 
 //
 // Limit Switches
@@ -99,7 +99,7 @@
   #define HEATER_0_PIN                      PC3
 #endif
 #ifndef FAN_PIN
-  #define FAN_PIN                           PB1   // FAN
+  #define FAN_PIN                           PA8   // FAN
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                    PA0
